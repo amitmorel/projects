@@ -7,8 +7,9 @@
 
 ## Instructions
 1. name the server file `index.py`
-2. create `requirement.txt` file:
+2. create `requirements.txt` file:
 ``` C++
+Flask==1.0.2
 Flask-Cors==3.0.7
 flask-mongoengine==0.9.5
 Flask-PyMongo==2.2.0
@@ -42,7 +43,14 @@ Werkzeug==0.14.1
     ]
 }
 ```
-4. on command line / console - type `now` and deploy !
+4. the buttom `start app` should look like that:
+```python
+if __name__ == '__main__':
+    app.run(debug=True)
+```
+5. on command line / console - type `now` and deploy !
+
+Notice: If something goes wrong, first uninstall and reinstall pymongo.
 
 ## Credits / Resources
 [GitHub Q&A](https://github.com/zeit/now-examples/issues/163)  
