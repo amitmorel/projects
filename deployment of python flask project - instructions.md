@@ -8,7 +8,7 @@
 ## Instructions
 1. name the server file `index.py`
 2. create `requirement.txt` file:
-``` javascript
+``` C++
 Flask-Cors==3.0.7
 flask-mongoengine==0.9.5
 Flask-PyMongo==2.2.0
