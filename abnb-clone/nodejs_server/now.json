@@ -1,0 +1,16 @@
+{
+    "version": 2,
+    "name": "abnb-clone-server",
+    "builds": [
+        {
+            "src": "api.js",
+            "use": "@now/node-server"
+        }
+    ],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "/api.js"
+        }
+    ]
+}

@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif
+}
+*:focus {
+    outline: none;
+}
+
+button,
+i{
+    cursor: pointer;
+}
+
+:root{
+    --main-color:#e3262a;
+}
+
+body {
+    margin:0;
+}
+nav {
+    text-align: center;
+    border-bottom: 2.5px var(--main-color) solid;
+    position: fixed;
+    background-color: white;
+    z-index: 1;
+}
+
+nav * {
+    font-family: 'Indie Flower', cursive;
+    display: inline;
+    text-decoration: none;
+    font-size: 2em;
+    color: black;
+}
+.social {
+    padding:0.3em;
+    font-size: 1.3em;
+    color: var(--main-color);
+}
+.social:hover {
+    color:black;
+}
+
+a {
+    padding:0.8em;
+}
+a:hover,
+.red,
+#success{
+    color:var(--main-color);
+}
+
+#btnCart,
+#btnBuyNow {
+    border:none;
+    border-radius: 4%;
+    background-color: var(--main-color);
+    margin:0 0.7em;
+}
+
+#btnCart *,
+#btnBuyNow *{
+    font-size: 18px;
+    color:white;
+}
+
+#btnCart span,
+#btnBuyNow span {
+    font-family: 'Indie Flower', cursive;
+}
+
+#colors {
+    border:none;
+    padding: none;
+}
+
+#areaProducts {
+    padding: 150px 75px 0 75px;
+}
+
+.item {
+    position: relative;
+    display: inline-block;
+    width:300px;
+    border:2px var(--main-color) solid;
+    border-radius: 4%;
+    overflow: hidden;
+    margin:5px;
+}
+
+.item img {
+    width:100%;
+}
+
+.item span {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.7em;
+    padding: 0.1em 0.6em;
+}
+
+.item button {
+    position: absolute;
+    bottom:0;
+    right:0;
+    font-size: 1.6em;
+    border:none;
+    border-bottom-right-radius :4px;
+    background-color: var(--main-color);
+    color:white;
+    padding:0.15em 0.2em;
+}
+
+#areaCart{
+    position: fixed;
+    display: none;
+    background-color: white;
+    border:2px var(--main-color) solid;
+    border-radius: 4%;
+    padding:5px;
+    top: 80px;
+    right:150px;
+    z-index: 1; 
+}
+
+
+#areaCart td {
+    margin:0;
+    text-align: center;
+}
+
+#cartBody input {
+    width: 30px;
+    margin: 0 25px;
+}
+
+#areaCart thead td,
+#totalPrice {
+    color:var(--main-color);
+    font-family: 'Indie Flower', cursive;
+    border: none;
+    font-size:24px;
+}
+
+#totalCart {
+    text-align: right;
+}
+
+
+

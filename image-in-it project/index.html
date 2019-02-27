@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Image-ine-It</title>
+</head>
+<body>
+    <nav>
+        <a href="">Home</a>
+        <a href="">About Us</a>
+        <a href="">Shop Online</a>
+        <h1><span class="red">&gt;</span>Image-ine-It<span class="red">&lt;</span></h1>
+        <a href="">Contact us</a>
+        <a href="">Stores</a>
+        <i class="social fab fa-facebook-square"></i>
+        <i class="social fab fa-twitter"></i>
+        <i class="social fab fa-snapchat-square"></i>
+        <i class="social fab fa-instagram"></i>
+        <button id="btnCart">
+            <span>Cart   </span>
+            <i class="fas fa-shopping-cart"></i>
+        </button>
+        <input type="color" name="" id="colors">
+    </nav>
+    <div id="areaCart">
+        <table>
+            <thead>
+                <td>#</td>
+                <td>Product</td>
+                <td>Price</td>
+                <td>Quantity</td>
+            </thead>
+            <tbody id="cartBody"></tbody>
+        </table>
+        <div id="totalCart">
+            <i id="clearCart" class="social fas fa-times"></i>
+            <span>total <span id="totalPrice">0</span>₪</span>
+            <button id="btnBuyNow">
+                <span>Order   </span>
+                <i class="fas fa-shopping-cart"></i>
+            </button>
+        </div>
+    </div>
+    <div id="areaProducts"></div>
+    <script src="script.js"></script>
+</body>
+</html>

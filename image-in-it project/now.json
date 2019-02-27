@@ -1,0 +1,9 @@
+{
+    "version": 2,
+    "name":"image-ine-it",
+    "builds": [
+      { "src": "script.js", "use": "@now/static" },
+      { "src": "index.html", "use": "@now/static" },
+      { "src": "style.css", "use": "@now/static" }
+    ]
+}
